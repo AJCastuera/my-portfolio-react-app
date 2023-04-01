@@ -1,0 +1,26 @@
+
+.body {
+  height: 500px;
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  color: #01ddf3;
+  background-color: #3AAFA9;
+}
+
+.body p {
+  font-size: 15pt;
+  color: white;
+}
+
+.body h1 {
+  /*font-family: 'Courier New', Courier, monospace;*/
+  font-size: calc(10px + 8vmin);;
+}
+
+@media screen and (min-width:500px) {
+  .body {
+    height: 500px;
+  }
+}

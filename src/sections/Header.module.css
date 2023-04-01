@@ -1,0 +1,41 @@
+
+.body {
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  color: #17252A;
+  background-color: #2B7A78;
+  padding-bottom: calc(10px + 5vmin);
+}
+
+.header p:first-child {
+  text-align: left;
+}
+
+.header p{
+  font-size: 15pt;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: right;
+  margin:0;
+}
+
+.icon_container {
+  text-align: right;
+}
+
+.header {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.header h1 {
+  /*font-family: 'Courier New', Courier, monospace;*/
+  font-size: calc(10px + 5vmin);
+  padding:0;
+  margin:0;
+}
+
+@media screen and (min-width:500px) {
+}
